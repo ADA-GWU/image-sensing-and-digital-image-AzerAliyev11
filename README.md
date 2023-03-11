@@ -22,6 +22,9 @@ These images are saved in the **Images** folder.
 on the object itself. All of the results are named properly and saved separately. Naming convention is [LightSource][Close]_[Type]
 (FluoDimClose_Back for close colors on the background of the image taken under dim fluorescent light)  
 
+
+Threshold value is 10 for finding close colors since this number yielded better results comparatively.
+
 ## main.py
 All the code is contained inside the **main.py** file. The code is well commented. Converting an image into grayscale and finding close colors on
 an image are written inside functions **GrayConverter** and **find_close_colors**  
