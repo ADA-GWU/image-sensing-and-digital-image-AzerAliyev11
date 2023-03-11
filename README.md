@@ -25,7 +25,11 @@ on the object itself. All of the results are named properly and saved separately
 ## main.py
 All the code is contained inside the **main.py** file. The code is well commented. Converting an image into grayscale and finding close colors on
 an image are written inside functions **GrayConverter** and **find_close_colors**  
+
+
 None of the results are being shown to the user with imshow since all of the results are being saved in their corresponding folders. Apart from that,
 these folders are generated on the root location of the **main.py** through the code itself.  
+
+
 It takes significant amount of time to compute the close colors since the images are of high resolution. Therefore,
 images are being resized to a smaller size and then they are processed through the find_close_colors function.
